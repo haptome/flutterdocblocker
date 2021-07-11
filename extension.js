@@ -9,9 +9,9 @@ const configuration = require('./.flutterdocblocker')
 ///
 ///  isBoolean
 ///
-///  @author	Haptome
+/// @author	Haptome
 /// @since	v0.0.1
-/// [@version	v1.0.0	Sunday, July 10th, 2021]
+/// @version	v1.0.0	Sunday, July 10th, 2021
 /// @global
 /// @param	{///}  value
 /// @return	{boolean}
