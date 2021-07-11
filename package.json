@@ -1,0 +1,73 @@
+{
+	"name": "flutterdocblocker",
+	"displayName": "flutterdocblocker",
+	"description": "generated docblocks using regex. Dart and Flutter languages supported.",
+	"version": "1.0.0",
+	"publisher": "Haptome",
+    "author": {
+        "name": "Haptome"
+    },
+    "license": "GPL-3.0-or-later",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/haptome/flutterdocblocker"
+    },
+	"engines": {
+		"vscode": "^1.58.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+        "document",
+		"documentation",
+        "doc",
+		"flutterdocblocker",
+		"dartdocblocker",
+		"dartdoc",
+		"flutterdoc",
+		"docblock",
+        "comment"
+    ],
+	"activationEvents": [
+		"onCommand:extension.flutterdocblocker"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.flutterdocblocker",
+                "title": "Run flutterdocblocker."
+			}
+		],
+		"keybindings": [
+            {
+                "command": "extension.flutterdocblocker",
+                "key": "alt+1",
+                "when": "editorTextFocus"
+            }
+        ]
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.58.0",
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.2.2",
+		"@types/node": "14.x",
+		"eslint": "^7.27.0",
+		"glob": "^7.1.7",
+		"mocha": "^8.4.0",
+		"typescript": "^4.3.2",
+		"vscode-test": "^1.5.2"
+	},
+	"dependencies": {
+		"dateformat": "^4.5.1",
+		"named-js-regexp": "^1.3.5",
+		"nunjucks": "^3.2.3"
+	}
+}
