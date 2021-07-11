@@ -23,10 +23,6 @@ Simply provides an easy to use Documentaion Blocker generator with mininal amoun
 
 + By default press alt+1 when cursor is on line of a variable, class, or function.
 
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
 ## Release Notes
 
 Users appreciate release notes as you update your extension.
