@@ -1,13 +1,13 @@
 {
 	"name": "flutterdocblocker",
-	"displayName": "flutterdocblocker",
-	"description": "generated docblocks using regex. Dart and Flutter languages supported.",
+	"displayName": "Flutter Doc Blocker",
+	"description": "Generated docblocks using regex. Dart and Flutter languages supported.",
 	"version": "1.0.0",
-	"publisher": "Haptome",
+	"publisher": "flutterdocblocker",
     "author": {
         "name": "Haptome"
     },
-    "license": "GPL-3.0-or-later",
+   
     "repository": {
         "type": "git",
         "url": "https://github.com/haptome/flutterdocblocker"
