@@ -12,6 +12,7 @@
         "type": "git",
         "url": "https://github.com/haptome/flutterdocblocker"
     },
+	"icon": "FDB.png",
 	"engines": {
 		"vscode": "^1.58.0"
 	},
