@@ -1,4 +1,27 @@
-# flutterdocblocker
+ <p align="center">
+  <br>
+  <br>
+  <br>
+   <br>
+  <img alt="Logo" width=100 src="./FDB.png">
+   <p align="center">
+    <h1 align="center">Flutter Doc Blocker</h1>
+   </p>
+  <br>
+  <p align="center">
+    <img src="https://img.shields.io/badge/Maintained%3F-Yes-green?style=for-the-badge">
+  <br>
+  <a href="#" target="_blank"><img alt="undefined" src="https://badgen.net/badge//vs-marketplace/V1.0.0/"></a>
+  <a href="#" target="_blank"><img alt="undefined" src="https://badgen.net/badge/Download/Flutter/?color=blue&icon=flutter&label"></a>
+   <a href="#" target="_blank"><img alt="undefined" src="https://badgen.net/badge/Download/Dart/?color=blue&icon=flutter&label"></a>
+
+  <br>
+   </p>
+
+
+</p>
+
+<!-- # flutterdocblocker -->
 
 Simply provides an easy to use Documentaion Blocker generator with mininal amount of effort.
 
